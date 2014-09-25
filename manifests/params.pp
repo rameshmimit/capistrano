@@ -1,8 +1,8 @@
 class capistrano::params {
   $app_name     = undef
-  $deploy_user  = 'slideshare'
-  $deploy_group = 'slideshare'
-  $deploy_dir   = '/home/slideshare'
+  $deploy_user  = 'dep_user'
+  $deploy_group = 'dep_group'
+  $deploy_dir   = '/home/dep_user'
   $capped_dir   = "$deploy_dir/capped"
   $shared_dir   = "$capped_dir/shared"
   $releases_dir = "$capped_dir/releases"
